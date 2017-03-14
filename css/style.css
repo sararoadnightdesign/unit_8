@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+
+body {
+	font-size: 30px;
+	
+	}
+
+header{
+background-color: #ffed74;
+}
+
+nav{
+background-color: #e8c66a;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+section{
+
+	background-color: #fff2b8;
+}
+
+#twocolumn{
+ background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+
+
+}
+
+#left{
+background-color: #E582A2;
+    border: 1px black solid;
+    float: left;
+    width: 45%;
+}
+
+#right{
+
+	background-color: #E55B88;
+    border: 1px black solid;
+    float: right;   
+    width: 45%;
+	
+}
+
+img{
+
+width: 100%;
+
+}
+
+footer{
+
+	background-color: #ff957e;
+}
+
+h1{
+font-family: 'Pattaya', sans-serif;
+font-size: 2.5em;
+letter-spacing: 5px;
+color: #fff;
+}
+
+h3 {
+font-family: helvetica;
+font-size: 1.5em;
+color: #fff;
+
+}
+
+body{
+
+	text-align: center;
+	background-color: #1cced5;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 1em;
+	color: #fff;
+}
+
+a {
+
+	font-family: helvetica;
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none;
+    padding: 8px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-size: 1em; 
+}
+
+li a:hover {
+    
+    color: #f20881;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 930px) {
+	
+	#left {
+	background-color: #E582A2;
+    border: 1px black solid;
+    float: none;
+    width: 60%;
+	margin:auto;
+	padding-bottom: 5%;
+		}
+	
+	#right {
+	background-color: #E55B88;
+    border: 1px black solid;
+	float: none;
+    width: 60%;
+	margin:auto;
+		}
+}
+
+@media screen and (max-width: 930px) {
+	{}
+	
+	}
